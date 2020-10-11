@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <link rel="icon" href="images/title-logo.png" type="image/icon type">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="lay-table.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Table</title>
 </head>
@@ -47,25 +46,40 @@
 
             <div class="filter-panel">
                 <div class="pane1">
-                    <ul>
-                        <li id="sortByLbl">
-                            <label for="radio">Sort by</label></li>
-                        <li>
-                            <label class="container">Acending
-                              <input type="radio" checked="checked" name="radio">
-                              <span class="checkmark"></span>
-                            </label>
-                        </li>
-                        <li>
-                            <label class="container">Decending
-                              <input type="radio" name="radio">
-                              <span class="checkmark"></span>
-                            </label>
-                        </li>
-                    </ul>                    
+                    <div class="left">
+                        <label for="radio">Sort by</label>
+                    </div>
+                    <div class="right">
+                        <ul>
+                            <li>
+                                <label class="container">Acending
+                                  <input type="radio" checked="checked" name="radio">
+                                  <span class="checkmark"></span>
+                                </label>
+                            </li>
+                            <li>
+                                <label class="container">Decending
+                                  <input type="radio" name="radio">
+                                  <span class="checkmark"></span>
+                                </label>
+                            </li>
+                        </ul>                    
+                    </div>
                 </div>
                 <div class="pane2">
-                    <!-- panel2                     -->
+                    <div class="search-container">
+                        <form action="#">
+                            <span class="left">
+                                <input type="text" placeholder="Search.." name="search">
+                            </span>
+                            <span class="right">
+                                <button type="submit">Submit</button>
+                            </span>
+                        </form>
+                      </div>
+                    <div class="right">
+
+                    </div>
                 </div>
                 <div class="pane3">
                     <label for="filter4">Sort by</label>
